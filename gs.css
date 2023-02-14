@@ -51,24 +51,25 @@ table, th,td{
     }
 
     ul.navbar-horizontal {
-         /* remove these */
-         list-style-type: none;
-         margin: 0;
-         padding: 0;
+        /* remove these */ 
+        list-style-type: none;
+        margin: 0; 
+        padding: 0;
     }
-    ul.navbar-horizontal li {
+    ul.navbar-horizontal li { 
         float:left;
         /* line up horizontally */
-        color:yellow;
-        background-color:rgb(43, 198, 226);
-    }
-    ul.navbar-horizontal a {
-        display:block;
-        padding:12px
-    }
-    /* on hover change the link color*/
-    ul.navbar-horizontal a:hover{
-        background-color:orange;
-        color:white;
+         color:#000;
+          background-color:rgb(43, 198, 226);
+        }
+        ul.navbar-horizontal a { 
+            display:block;
+         padding:8px
+        }
+        /* on hover change the link color*/
+    
+    ul.navbar-horizontal a:hover {
+         background-color: #555;
+         color: white;
     }
     
