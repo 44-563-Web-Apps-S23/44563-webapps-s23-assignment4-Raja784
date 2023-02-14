@@ -1,9 +1,29 @@
-p{
-    color:black
+.speech{
+    color:black;
+    size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.class:direction{
-    color:black,
-    font-style:Arial;
+p.direction {
+    color:black;
+    font-family: 'Times New Roman', Times, serif;
+    size: 15px;
+
+background-color: pink;
 }
 
+.direction:hover {
+    background-color: darkseagreen;
+
+}
+
+.pqr{
+    color:greenyellow;
+}
+
+.xyz{
+    color:red;
+}
+table, th,td{
+    border:1px solid;
+}
