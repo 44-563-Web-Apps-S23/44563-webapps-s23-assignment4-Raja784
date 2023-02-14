@@ -28,7 +28,7 @@ table, th,td{
     border:1px solid;
     border-collapse: collapse;
     text-align: centre;
-    color: blue;font-weight:bold;
+    color:blue;font-weight:bold;
     padding-top: 30px;
     padding-right:30px;
     padding-bottom:30px;
@@ -48,4 +48,26 @@ table, th,td{
     }
     .MRS:hover{
         text-shadow: 3px 3px blueviolet;
+    }
+    
+    ul.navbar-horizontal {
+         /* remove these */
+         list-style-type: none;
+         margin: 0;
+         padding: 0;
+    }
+    ul.navbar-horizontal li {
+        float:left;
+        /* line up horizontally */
+        color:yellow;
+        background-color:rgb(43, 198, 226);
+    }
+    ul.navbar-horizontal a {
+        display:block;
+        padding:12px
+    }
+    /* on hover change the link color*/
+    ul.navbar-horizontal a:hover{
+        background-color:orange;
+        color:white;
     }
